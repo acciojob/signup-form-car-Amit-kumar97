@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by the student -->
-	<form>
+	<form method='post'>
 		<!-- Name -->
 		<label for='name'>Name:</label>
 		<input type="text" id='name' placeholder='Name' required><br>
@@ -19,11 +19,11 @@
 
 		<!-- Gender -->
 		<label>Gender:</label>
-		<input type='radio' id='gender_f' required>
-		<label for='gender_female'>Female</label>
+		<input type='radio' id='gender_f' name='gender' required>
+		<label for='gender_f'>Female</label>
 		
-		<input type="radio" id='gender_m' required> 
-		<label for='gender_male'>Male</label><br>
+		<input type="radio" id='gender_m' name='gender' required> 
+		<label for='gender_m'>Male</label><br>
 
 		<!-- Car Brands -->
 		<label for='cars'>Car Brands:</label>
@@ -37,7 +37,7 @@
 		<input type='number' id='age' placeholder='Age' required><br>
 
 		<!-- DOB -->
-		<label for='DOB'>DOB:</label>
+		<label for='dob'>DOB:</label>
 		<input type='date' id='dob' required><br>
 
 		<!-- Phone Number -->
